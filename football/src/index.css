@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 24px auto;
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.search-bar input {
+  width: 80px;
+  padding: 6px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.match-card {
+  border: 1px solid #e6e9ef;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  background: #fcfdff;
+}
